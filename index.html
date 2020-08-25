@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- banner on top of page -->
+    <!-- Weather Dashboard -->
+    <h1 class="display-1 text-center bg-dark text-white pb-4">Weather Dashboard</h1>
+
+    <!-- search area -->
+    <div class="container-fluid bg-info">
+        <div class="row">
+            <div class="col-sm-4 bg-secondary text-white pt-3">
+                <!-- This should take up about 1/3 of the left side -->
+                <!-- city search on top left -->
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search a City" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                <!-- Under search list past searched cities -->
+            </div>
+            <div class="col-sm-8 mt-3">
+                <!-- This should be about 2/3 of the right side -->
+                <div class="card">
+                    <!-- the top section should list the city and date icon of waether condition -->
+                    <div class="card-body">
+                        City date and waether Icon will go here!
+                    </div>
+                    <!-- temp -->
+                    <div class="card-body">
+                        Temperature:
+                    </div>
+                    <!-- humidity -->
+                    <div class="card-body">
+                        Humidity:
+                    </div>
+                    <!-- wind speed -->
+                    <div class="card-body">
+                        Wind Speed:
+                    </div>
+                    <!-- UV index (Color green, yellow or red depending on conditions) -->
+                    <div class="card-body">
+                        UV Index:
+                    </div>
+                </div>
+                <!-- 5 day forcast -->
+                <div class="mt-4 mb-2">
+                    5 Day Forcast:
+                </div>
+
+                <!-- The bootom should have a 5 day forcast -->
+                <!-- each day should have a list starting with date -->
+                <!-- weather conditions icon -->
+                <!-- temp -->
+                <!-- humidity -->
+                <!-- mouse over card should show the UV index color (or should I turn the card background color the needed color?) this wouldbe extra -->
+                <div class="row mx-auto">
+                    <!-- 1 day ahead -->
+                    <div class="col-sm-2.5 pb-2 ml-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <!-- these ptags will be deleted later and made with .js using them to see how the page looks -->
+                                <p class="card-text">Date</p>
+                                <p class="card-text">weather icon</p>
+                                <p class="card-text">temp</p>
+                                <p class="card-text">humidity</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 days ahead -->
+                    <div class="col-sm-2.5 pb-2 ml-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <p class="card-text">Date</p>
+                                <p class="card-text">weather icon</p>
+                                <p class="card-text">temp</p>
+                                <p class="card-text">humidity</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 days ahead -->
+                    <div class="col-sm-2.5 pb-2 ml-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <p class="card-text">Date</p>
+                                <p class="card-text">weather icon</p>
+                                <p class="card-text">temp</p>
+                                <p class="card-text">humidity</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4 days ahead -->
+                    <div class="col-sm-2.5 pb-2 ml-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <p class="card-text">Date</p>
+                                <p class="card-text">weather icon</p>
+                                <p class="card-text">temp</p>
+                                <p class="card-text">humidity</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 5 days ahead -->
+                    <div class="col-sm-2.5 pb-2 ml-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <p class="card-text">Date</p>
+                                <p class="card-text">weather icon</p>
+                                <p class="card-text">temp</p>
+                                <p class="card-text">humidity</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- jquery slim -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <!-- popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
