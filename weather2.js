@@ -38,6 +38,7 @@ function getCityInfo() {
             // storing the teperature
             var temp = response.current.temp;
             console.log('temp = ' + Math.floor(temp) + '°F');
+
             $('#temp').text(Math.floor(temp) + '°F');
             // Storing humidity
             var humidity = response.current.humidity;
