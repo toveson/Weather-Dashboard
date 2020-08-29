@@ -29,6 +29,7 @@ function getCityInfo() {
         }).then(function (response) {
             console.log(response);
 
+            console.log('-----today-----')
             // current day
             // storing the date
             // storing weather icon
@@ -37,6 +38,7 @@ function getCityInfo() {
             // storing the teperature
             var temp = response.current.temp;
             console.log('temp = ' + Math.floor(temp) + '°F');
+            $('#temp').text(Math.floor(temp) + '°F');
             // Storing humidity
             var humidity = response.current.humidity;
             console.log('humidity = ' + humidity + '%')
@@ -47,12 +49,22 @@ function getCityInfo() {
             var uvIndex = response.current.uvi;
             console.log(uvIndex);
 
-
-            // I also need to get 5 day forcast
+            console.log('-----5 day-----')
+            // I also need to get 5 day forcast (should I make a loop???)
             // date
             // weather icon
-            // temp
+            var fiveDayIcon = response.daily[0].weather[0].icon;
+            console.log('icon = ' + fiveDayIcon);
+            // min temp
+            var fiveDayMinTemp = response.daily[0].temp.min;
+            // max temp
+            var fiveDayMaxTemp = response.daily[0].temp.max;
+
+            var fiveDayTemp = Math.floor(fiveDayMinTemp) + '-' + Math.floor(fiveDayMaxTemp) + '°F'
+            console.log('five day temp = ' + fiveDayTemp);
             // humidity
+            var fiveDayHumidity = response.daily[0].humidity;
+            console.log('humidity = ' + fiveDayHumidity);
 
 
 
