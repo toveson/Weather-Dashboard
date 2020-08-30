@@ -23,7 +23,7 @@ function getCityInfo() {
         console.log('icon = ' + icon);
         console.log('city = ' + city);
 
-        // One Call API (7 day forcast)
+        // One Call API (7 day forecast)
         let queryURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=' + lat + '&lon=' + lon + '&units=imperial&appid=54152bc89cd7a8d06acb57627e96a4df';
         // getting info to populate html
         $.ajax({
@@ -56,7 +56,7 @@ function getCityInfo() {
             console.log('uv index = ' + uvIndex);
 
 
-            // I also need to get 5 day forcast
+            // I also need to get 5 day forecast
 
             // day 0
             // date
