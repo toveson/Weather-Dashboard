@@ -4,8 +4,6 @@
 * [Collaborators](#collaborators)
 * [Day Planner Website](https://toveson.github.io/Day-Planner/)
 
-
-
 # Weather-Dashboard
 
 This weather dashboard allows the user to search a city. when a city is searched it will return the curent date, weather icon, temperature, humidity, wind speed and UV index for that city. It will also give a 5 day forecast with the date, a weather icon, low to high temperatures and the humidity.
