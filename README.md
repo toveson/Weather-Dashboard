@@ -19,7 +19,7 @@ This weather dashboard allows the user to search a city. when a city is searched
 * font awesome
 
 ## Home Page
-![Weather-Dashboard](./immages/weather-dashboard.PNG)
+![Weather-Dashboard](./images/weather-dashboard.PNG)
 
 this [Weather-Dashboard](https://toveson.github.io/Weather-Dashboard/) is hosted on Github pages.
 
