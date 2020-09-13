@@ -1,19 +1,27 @@
+## Table of contents
+* [Weather-Dashboard](#Weather-Dashboard)
+* [Technologies](#Technologies)
+* [Collaborators](#collaborators)
+* [Day Planner Website](https://toveson.github.io/Day-Planner/)
+
+
+
 # Weather-Dashboard
 
+This weather dashboard allows the user to search a city. when a city is searched it will return the curent date, weather icon, temperature, humidity, wind speed and UV index for that city. It will also give a 5 day forecast with the date, a weather icon, low to high temperatures and the humidity.
 
-## Acceptance Criteria
+## Technologies
+* HTML
+* jQuery
+* moment.js
+* popper.js
+* Bootstap
+* font awesome
 
-```
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
-WHEN I view the UV index
-THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
-WHEN I open the weather dashboard
-THEN I am presented with the last searched city forecast
+## Home Page
+![Weather-Dashboard](./immages/weather-dashboard.PNG)
+
+this [Weather-Dashboard](https://toveson.github.io/Weather-Dashboard/) is hosted on Github pages.
+
+## Collaborators
+This application was authored by [Trever Oveson](https://github.com/toveson).
