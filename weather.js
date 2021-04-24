@@ -3,7 +3,7 @@
 
 
 
-// // golbal varibles
+// // global variables
 
 
 
@@ -34,7 +34,7 @@
 //   // storing the searched city
 //   // storing the date
 //   // storing weather icon
-//   // storing the teperature
+//   // storing the temperature
 //   // Storing humidity
 //   // Storing wind speed
 //   // Storing uv index
@@ -46,8 +46,8 @@
 //   // temp
 //   // humidity
 //   // wind speed
-//   // uv inex (need a color for favorable, moderate, or severe to go with it! )
-//   // I also need to get 5 day forcast
+//   // uv index (need a color for favorable, moderate, or severe to go with it! )
+//   // I also need to get 5 day forecast
 //   // date
 //   // weather icon
 //   // temp
@@ -66,5 +66,5 @@
 
 // // I need to store User input to local storage
 //     // I will use this to create dynamic buttons with the city name
-//     // these will be bellow the seach 
-//     // when they are clickeed they load the weather infor for that city
+//     // these will be bellow the search 
+//     // when they are clicked they load the weather info for that city

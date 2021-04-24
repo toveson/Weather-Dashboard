@@ -1,4 +1,4 @@
-// golbal variables
+// global variables
 var cities = [];
 var cityName = '';
 var now = moment();
@@ -30,7 +30,7 @@ function getCityInfo() {
             url: queryURL,
             method: "GET"
         }).then(function (response) {
-            // storing the teperature
+            // storing the temperature
             var temp = response.current.temp;
             // adding temp to landing page
             $('#temp').html('Temperature: ' + Math.floor(temp) + '°F');
